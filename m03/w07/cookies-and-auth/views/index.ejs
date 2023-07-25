@@ -1,0 +1,9 @@
+<%- include('partials/_header.ejs') %>
+
+  <h2>Hi <%= user.email %>. Welcome to my app! 🌞</h2>
+
+  <form method="post" action="/api/logout">
+    <input type="submit" value="Logout">
+  </form>
+</body>
+</html>
