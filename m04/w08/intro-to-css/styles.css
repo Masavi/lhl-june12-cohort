@@ -1,0 +1,57 @@
+/* SELECTORS */
+
+/* selector {
+  key: value;
+  key: value;
+} */
+
+/* GLOBAL SELECTOR */
+* {
+  /* content-box is the default */
+  box-sizing: content-box;
+
+  /* border-box uses content, padding and border to calculate height and width */
+  /* box-sizing: border-box; */
+}
+
+/* ELEMENT SELECTOR */
+p {
+  color: #39d3b4;
+  font-size: 50px;
+}
+
+/* CLASS SELECTOR */
+.my-class-name {
+  color: crimson;
+}
+
+/* ID SELECTOR */
+#my-id-name {
+  background-color: darksalmon;
+}
+
+/*
+* Even though both class and id selectors work the same, you should aim
+  to always use classes. ONLY use ID selectors when working with JavaScript.
+*/
+
+/* BOX MODEL through CSS */
+
+.box-model {
+  /* CONTENT */
+  width: 200px;
+  height: 200px;
+
+  /* PADDING */
+  padding: 50px;
+
+  /* BORDER */
+  border: 2px solid black;
+
+  /* MARGIN */
+  margin: 0;
+}
+
+ul#nav li.active a {
+  background-color: chartreuse;
+}

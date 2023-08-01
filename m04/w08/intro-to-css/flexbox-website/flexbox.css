@@ -1,0 +1,17 @@
+.parent-container {
+  display: flex;
+
+  /* flex-direction: row or column? */
+  flex-direction: row;
+
+  /* justify-content: horizontal axis organization */
+  justify-content: center;
+
+  /* align-items: vertical axis organization */
+  align-items: center;
+}
+
+img {
+  height: 200px;
+  width: 300px;
+}
