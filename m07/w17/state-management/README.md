@@ -1,4 +1,6 @@
-# State Management and Immutable Update Patterns
+# M07-W17 | State Management and Immutable Update Patterns
+
+## Topics to cover
 
 - [x] React Component and State Management
 - [x] Complex State Management and Redux
@@ -6,7 +8,7 @@
 - [x] Immutable update patterns
 - [x] useReducer
 
-## React Component and State Management
+### React Component and State Management
 
 1. React Component is a function that return JSX as view
 2. React Component holds "State" which is a piece of data the component own
@@ -14,13 +16,13 @@
 4. React Component can accept value from parent components as "props"
 5. Child component cannot modify "props"
 
-## Immutable update patterns
+### Immutable update patterns
 
 1. State is immutable. Use setter (set function) to **replace** the entire state
 2. State can only be updated from the component it defined
 3. To update state from children, pass setter as **props**
 
-## State Management with Reducer
+### State Management with Reducer
 
 1. State can be complicated (Array of objects with multiple keys) that is hard to manage with **useState**
 2. `useReducer` hook expert in managing more complex state scenario
