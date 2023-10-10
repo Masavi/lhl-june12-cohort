@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+.counter-container {
+  background-color:lightsalmon;
+  width: 300px;
+  margin: 0 auto;
+  padding: 12px;
+  border-radius: 8px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter-container button {
+  background-color: gray;
+  color: white;
+  margin: 0 10px;
+  height: 24px;
+}
+
+.counter-container span {
+  color: white;
+  background-color: gray;
+  padding: 2px 8px;
+  border-radius: 10px;
+}
+
+.pet-container img {
+  width: 400px;
+}
